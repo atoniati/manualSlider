@@ -7,8 +7,8 @@ body{
 .slider {
     display: flex;
     justify-content: center;
-    height: 293px;
-    width: 600px;
+    max-height: 293px;
+    max-width: 600px;
     margin: auto;
     margin-top: 20px;
     position: relative;
@@ -67,4 +67,11 @@ body{
     opacity: 1;
     visibility: visible;
     z-index: 10;
+}
+
+@media screen and (max-width: 300px) {
+    .slider label {
+    width: 6px;
+    height: 6px;   
+    }
 }
