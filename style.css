@@ -5,7 +5,8 @@ body{
 }
 
 .slider {
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 293px;
     width: 600px;
     margin: auto;
